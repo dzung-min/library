@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bookshelf</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Bookshelf</h1>
+      <button id="new-book-btn">New Book</button>
+    </header>
+    <hr>
+    <!-- Add book modal -->
+    <div id="modal">
+      <div id="modal-content">
+        <a id="close" href="#">+</a>
+        <h2>Add a New Book</h2>
+        <form action="">
+          <input type="text" name="title" placeholder="Title" required />
+          <input type="text" name="author" placeholder="Author" required />
+          <input type="number" name="pages" placeholder="Pages" required />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+    <div id="display"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
